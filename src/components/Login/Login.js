@@ -1,7 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Login.scss";
 
-function login () {
+function login (props) {
+
+    // let email, password;
+
+    // const signInClickHandler = () => {
+    //     ema
+    // }
+
+    // const signInWithGoogleClickHandler = () => {
+
+    // }
+
     return (
         <div className="bg-img">
         <p className="tip">Welcome to this page</p>
@@ -17,8 +28,8 @@ function login () {
             <input type="password" />
             </label>
             <p className="forgot-pass">Forgot password?</p>
-            <button type="button" className="submit">Sign In</button>
-            <button type="button" className="fb-btn">Connect with 
+            <button type="button" className="submit" onClick={signInClickHandler}>Sign In</button>
+            <button type="button" className="fb-btn" onClick={signInWithGoogleClickHandler}>Connect with 
             <g> G</g>
             <first-o>o</first-o>
             <second-o>o</second-o>
