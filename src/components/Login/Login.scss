@@ -36,6 +36,7 @@
     font-size: 20px;
     margin: 40px auto 50px;
     text-align: center;
+    color: transparent;
   }
   
   .cont {
@@ -81,6 +82,12 @@
     font-size: 15px;
     cursor: pointer;
   }
+
+  .bg-img {
+    overflow: hidden;
+    background-image: url("https://free4kwallpapers.com/uploads/originals/2020/05/06/sunset-sky-wallpaper.jpg");
+    background-size: cover;
+  }
   
   .img {
     overflow: hidden;
@@ -97,9 +104,9 @@
       position: absolute;
       right: 0;
       top: 0;
-      width: $contW;
+      width: $contW;  
       height: 100%;
-      background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/sections-3.jpg');
+      background-image: url('https://img.freepik.com/free-psd/cv-mock-up-white-background_23-2148363842.jpg');
       background-size: cover;
       transition: transform $switchAT ease-in-out;
     }
@@ -260,6 +267,26 @@
     span {
       font-weight: bold;
       color: darken(#768cb6, 20%);
+    }
+
+    g {
+      font-weight: bold;
+      color: blue;
+    }
+
+    first-o {
+      font-weight: bold;
+      color: red;
+    }
+
+    second-o {
+      font-weight: bold;
+      color: rgb(255, 255, 0);
+    }
+
+    l {
+      font-weight: bold;
+      color: green;
     }
   }
   
