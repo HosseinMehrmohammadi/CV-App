@@ -3,15 +3,13 @@ import "./Login.scss";
 
 function login (props) {
 
-    // let email, password;
+    const signInClickHandler = () => {
+        
+    }
 
-    // const signInClickHandler = () => {
-    //     ema
-    // }
+    const signInWithGoogleClickHandler = () => {
 
-    // const signInWithGoogleClickHandler = () => {
-
-    // }
+    }
 
     return (
         <div className="bg-img">
